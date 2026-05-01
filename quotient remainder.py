@@ -1,0 +1,9 @@
+n1=int(input("enter dividend value:"))
+n2=int(input("enter divisor value:"))
+if n2==0:
+    print("error! quotient and remainder not possible")
+else:
+    quo=n1/n2
+    rem=n1%n2
+    print("quotient =",quo)
+    print("remainder =",rem)
